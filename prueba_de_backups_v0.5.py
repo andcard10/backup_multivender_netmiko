@@ -17,8 +17,8 @@ def job():
         'ip':   IP,
         'port': 60022,
         'username': 'serverprueba',
-        'password': 'JWwFiUtHtA*U',
-        'device_type': DEVICE,
+        'password': 'password',
+        'device_type': 'juniper_junos',
         }
 
         try:
