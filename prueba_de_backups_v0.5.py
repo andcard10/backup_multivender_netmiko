@@ -8,7 +8,7 @@ import schedule
 import os
 def job():
     TNOW = datetime.datetime.now().replace(microsecond=0)
-    IP_LIST = {'juniper_junos':'10.81.1.11','juniper_junos':'10.81.1.40'}
+    IP_LIST = {'CSW_CLL':'10.81.1.11','CSW_18':'10.81.1.40'}
     # DEVICE_LIST =['CSW_cll','CSW_18']
     i = 0
     for DEVICE,IP in IP_LIST.items():
